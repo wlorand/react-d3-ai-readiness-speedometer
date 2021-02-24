@@ -1,0 +1,37 @@
+/**
+  * File: globals.css
+  * Desc: global styles
+  */
+
+@font-face {
+  font-family: "Avenir Next For Intuit";
+  src: url("../assets/fonts/avenir-next-for-intuit-rg-web.woff2");
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Avenir Next For Intuit", sans-serif;
+  margin: 0;
+}
+
+.app-header {
+  align-items: center;
+  background-color: rgb(0, 119, 197);
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 25px; */
+}
+
+.app-header > h1 {
+  font-weight: 900;
+  margin: 10px 20px;
+  padding: 0;
+}
+
+.guage-container {
+  justify-content: center;
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 25px;
+}
