@@ -29,7 +29,7 @@ body {
   padding: 0;
 }
 
-.guage-container {
+.gauge-container {
   justify-content: center;
   /* border: 1px solid red; */
   display: flex;
