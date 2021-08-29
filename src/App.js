@@ -19,6 +19,8 @@ function App() {
           value={622}
           currentValueText="A.I. Readiness"
           segments={5}
+          needleTransition="easeElastic"
+          needleTransitionDuration={3000}
           customSegmentLabels={[
             {
               text: 'Poor',
